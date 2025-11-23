@@ -1,0 +1,711 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap'); /* Importa a fonte Quicksand do Google Fonts */
+
+ 
+
+* {
+
+box-sizing: border-box; /* Garante que o preenchimento e a borda não aumentem o tamanho total do elemento */
+
+}
+
+ 
+
+:root {
+
+--primary-color: #00e676; /* Define a cor primária (verde vibrante) como uma variável CSS */
+
+--secondary-color: #e8eaed; /* Define a cor secundária (cinza claro) como uma variável CSS */
+
+--tertiary-color: #9aa0a6; /* Define a cor terciária (cinza médio) como uma variável CSS */
+
+--bg-color: #0d2622; /* Define a cor de fundo (verde bem escuro) como uma variável CSS */
+
+}
+
+ 
+
+body {
+
+margin: 0; /* Remove a margem padrão do corpo da página */
+
+background: linear-gradient(135deg, #004d40, #00251a); /* Adiciona um gradiente verde escuro ao fundo */
+
+color: var(--secondary-color); /* Define a cor do texto padrão usando a variável --secondary-color */
+
+font-family: "Quicksand", sans-serif; /* Define a família da fonte para Quicksand ou uma fonte sans-serif padrão */
+
+display: flex;
+
+flex-direction: column;
+
+min-height: 100vh;
+
+}
+
+ 
+
+header {
+
+padding: 2rem 1rem; /* Define o preenchimento interno (2rem em cima/baixo, 1rem nos lados) */
+
+display: flex; /* Ativa o layout flexbox para alinhar os itens */
+
+align-items: center; /* Alinha os itens flex verticalmente ao centro */
+
+justify-content: space-around; /* Distribui os itens flex com espaço igual ao redor deles */
+
+position: sticky; /* Faz o cabeçalho ficar fixo no topo da tela ao rolar */
+
+top: 0; /* Define a posição do topo para o cabeçalho fixo */
+
+background: var(--bg-color); /* Define a cor de fundo do cabeçalho */
+
+z-index: 10; /* Garante que o cabeçalho fique acima de outros elementos na página */
+
+border-bottom: 1px solid var(--bg-color); /* Adiciona uma borda na parte inferior do cabeçalho */
+
+gap: 1rem; /* Define um espaçamento de 1rem entre os elementos flex do cabeçalho */
+
+}
+
+ 
+
+header h1 {
+
+font-size: 1.5rem; /* Define o tamanho da fonte */
+
+margin: 0; /* Remove a margem padrão */
+
+font-weight: 500; /* Define o peso da fonte como médio */
+
+white-space: nowrap; /* Impede que o texto quebre em várias linhas */
+
+cursor: pointer; /* Adiciona o cursor de ponteiro para indicar que é clicável */
+
+}
+
+ 
+
+header h1 i {
+
+    margin-right: 0.5rem;
+
+}
+
+ 
+
+div input {
+
+padding: 0.375rem 0.75rem; /* Define o preenchimento interno */
+
+border-radius: 1rem; /* Arredonda as bordas do campo de input */
+
+border: 1px solid var(--tertiary-color); /* Define a borda com a cor terciária */
+
+background: var(--bg-color); /* Define a cor de fundo */
+
+font-family: inherit; /* Herda a família da fonte do elemento pai */
+
+font-size: 1.5rem; /* Define o tamanho da fonte */
+
+transition: all 0.2s ease; /* Adiciona uma transição suave de 0.2s para todas as propriedades */
+
+width: 30rem; /* Define a largura do campo de input */
+
+color: var(--secondary-color); /* Define a cor do texto digitado */
+
+margin-right: .5rem; /* Adiciona uma margem à direita */
+
+}
+
+ 
+
+div input::placeholder {
+
+font-size: 1.2rem; /* Define o tamanho da fonte para o texto do placeholder */
+
+font-weight: 300; /* Define o peso da fonte para o texto do placeholder */
+
+color: var(--tertiary-color); /* Define a cor do texto do placeholder */
+
+}
+
+ 
+
+div input:focus {
+
+outline: none; /* Remove a borda de foco padrão do navegador */
+
+border-color: var(--bg-color); /* Muda a cor da borda quando o input está em foco */
+
+box-shadow: 0 0 0 0.1rem var(--tertiary-color); /* Adiciona uma sombra para indicar que o input está em foco */
+
+}
+
+ 
+
+#botao-busca {
+
+padding: 1rem 2rem; /* Define o preenchimento interno */
+
+border-radius: 1rem; /* Arredonda as bordas do botão */
+
+border: none; /* Remove a borda padrão */
+
+cursor: pointer; /* Muda o cursor para uma mãozinha para indicar que é clicável */
+
+font-family: inherit; /* Herda a família da fonte do elemento pai */
+
+font-weight: 500; /* Define o peso da fonte como médio */
+
+font-size: 1rem; /* Define o tamanho da fonte */
+
+white-space: nowrap; /* Impede que o texto do botão quebre em várias linhas */
+
+transition: background-color 0.2s ease, color 0.2s ease; /* Adiciona uma transição suave para a cor de fundo e a cor do texto */
+
+background-color: var(--primary-color); /* Define a cor de fundo para a cor primária */
+
+color: var(--secondary-color); /* Define a cor do texto */
+
+border: 1px solid var(--bg-color); /* Adiciona uma borda com a mesma cor do fundo */
+
+}
+
+ 
+
+#contexto-inicial {
+
+    text-align: center;
+
+    padding: 1rem 2rem 2rem;
+
+    max-width: 800px;
+
+    margin: 1rem auto;
+
+    background-color: #292a2d;
+
+    border-radius: 8px;
+
+    border: 1px solid #3c4043;
+
+}
+
+ 
+
+#contexto-inicial h2 {
+
+    color: var(--primary-color);
+
+    font-size: 1.8rem;
+
+    margin-bottom: 1rem;
+
+}
+
+ 
+
+#contexto-inicial h3 {
+
+    color: var(--secondary-color);
+
+    font-size: 1.3rem;
+
+    margin-top: 1.5rem;
+
+    margin-bottom: 0.5rem;
+
+    font-weight: 500;
+
+}
+
+ 
+
+.hidden {
+
+    display: none;
+
+}
+
+ 
+
+#ranking-musicais {
+
+    text-align: center;
+
+    padding: 1rem 2rem 2rem;
+
+    max-width: 800px;
+
+    margin: 1rem auto;
+
+    background-color: #292a2d;
+
+    border-radius: 8px;
+
+    border: 1px solid #3c4043;
+
+}
+
+ 
+
+#ranking-musicais h2 {
+
+    color: var(--primary-color);
+
+    font-size: 1.8rem;
+
+    margin-bottom: 1.5rem;
+
+}
+
+ 
+
+#ranking-musicais ol {
+
+    list-style-position: inside;
+
+    padding: 0;
+
+    text-align: left;
+
+}
+
+ 
+
+#ranking-musicais li {
+
+    font-size: 1.1rem;
+
+    background-color: #292a2d; /* Cor de fundo do card */
+
+    border-radius: 8px; /* Bordas arredondadas */
+
+    padding: 1rem; /* Espaçamento interno */
+
+    margin-bottom: 1rem; /* Espaçamento entre os cards */
+
+    display: flex; /* Alinha imagem e texto lado a lado */
+
+    align-items: center; /* Centraliza verticalmente o conteúdo do card */
+
+    gap: 1.5rem; /* Espaço entre a imagem e o texto */
+
+    border: 1px solid #3c4043; /* Borda sutil */
+
+}
+
+ 
+
+#ranking-musicais li:last-child {
+
+    margin-bottom: 0; /* Remove a margem do último item */
+
+}
+
+ 
+
+ #ranking-musicais img {
+
+    width: 150px; /* Largura fixa e maior para a imagem */
+
+    height: 100px; /* Altura fixa para a imagem */
+
+    object-fit: cover;
+
+    border-radius: 4px;
+
+ }
+
+ 
+
+#botao-busca:hover {
+
+background-color: #00b35c; /* Escurece um pouco a cor no hover */
+
+color: var(--bg-color); /* Muda a cor do texto quando o mouse está sobre o botão */
+
+box-shadow: 0 0 0 0.1rem var(--primary-color); /* Adiciona uma sombra ao redor do botão no hover */
+
+}
+
+ 
+
+#botao-busca:active {
+
+transform: scale(0.98); /* Diminui ligeiramente o tamanho do botão quando está sendo clicado */
+
+}
+
+ 
+
+article { /* Estilos para os cards individuais */
+
+    background-color: #292a2d; /* Adiciona uma cor de fundo sutil */
+
+    border-radius: 8px; /* Arredonda as bordas para um visual de card */
+
+    padding: 1.5rem; /* Ajusta o preenchimento interno */
+
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adiciona uma sombra suave */
+
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Suaviza as transições */
+
+    border: 1px solid #3c4043; /* Adiciona uma borda sutil */
+
+    display: flex; /* Usa flexbox para o conteúdo interno */
+
+    flex-direction: column; /* Organiza o conteúdo do artigo em coluna */
+
+}
+
+ 
+
+.card-container {
+
+    display: grid;
+
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+
+    gap: 1.5rem;
+
+    padding: 2rem;
+
+    max-width: 90rem;
+
+    margin: 0 auto;
+
+    overflow-y: auto;
+
+    height: calc(100vh - 10rem);
+
+}
+
+ 
+
+main {
+
+    flex-grow: 2;
+
+}
+
+ 
+
+.card-image {
+
+    width: 100%; /* Faz a imagem ocupar toda a largura do card */
+
+    height: 260px; /* Reduz a altura máxima para a imagem */
+
+    object-fit: contain; /* Garante que a imagem inteira seja exibida sem distorção */
+
+    border-radius: 8px; /* Arredonda todos os cantos da imagem */
+
+    margin: 0 auto; /* Centraliza a imagem horizontalmente */
+
+    display: block; /* Garante que a imagem se comporte como um bloco */
+
+}
+
+ 
+
+.card-image-link {
+
+    text-decoration: none;
+
+}
+
+ 
+
+article:hover {
+
+transform: scale(1.01); /* Aumenta ligeiramente o tamanho do artigo ao passar o mouse sobre ele */
+
+cursor: pointer; /* Muda o cursor para uma mãozinha para indicar que é clicável */
+
+}
+
+ 
+
+article h2 {
+
+margin-top: 0; /* Remove a margem superior */
+
+font-weight: 600; /* Define o peso da fonte como semi-negrito */
+
+font-size: 1.6rem; /* Define o tamanho da fonte */
+
+border-bottom: none; /* Remove a borda inferior */
+
+padding-bottom: 0; /* Remove o preenchimento inferior */
+
+margin-bottom: 0.25rem; /* Adiciona uma pequena margem inferior */
+
+color: var(--primary-color); /* Define a cor do texto usando a variável de cor primária */
+
+}
+
+ 
+
+article p {
+
+margin: 0.5rem 0; /* Define a margem superior e inferior */
+
+line-height: 1.6; /* Define a altura da linha para melhorar a legibilidade */
+
+font-size: 1rem; /* Define o tamanho da fonte */
+
+margin-bottom: 0.5rem; /* Adiciona uma margem inferior */
+
+color: var(--secondary-color); /* Define a cor do texto */
+
+}
+
+ 
+
+article p strong {
+
+color: var(--tertiary-color); /* Define a cor do texto para elementos strong dentro de um parágrafo */
+
+font-weight: 400; /* Define o peso da fonte como normal */
+
+}
+
+ 
+
+article a {
+
+color: var(--primary-color); /* Define a cor do link */
+
+text-decoration: none; /* Remove o sublinhado padrão dos links */
+
+font-weight: 200; /* Define o peso da fonte como extra-leve */
+
+}
+
+ 
+
+article a:hover {
+
+text-decoration: underline; /* Adiciona um sublinhado ao link quando o mouse está sobre ele */
+
+}
+
+ 
+
+.card-button {
+
+    display: inline-block;
+
+    padding: 0.75rem 1.5rem;
+
+    border-radius: 8px;
+
+    background-color: var(--primary-color);
+
+    color: var(--bg-color);
+
+    text-align: center;
+
+    font-weight: 500;
+
+    margin-top: auto; /* Empurra o botão para o final do card */
+
+    transition: background-color 0.2s ease;
+
+}
+
+ 
+
+.card-button:hover {
+
+    background-color: #00b35c;
+
+    text-decoration: none;
+
+    color: #0d2622;
+
+}
+
+ 
+
+.footer {
+
+width: 100%; /* Faz o rodapé ocupar 100% da largura */
+
+color: var(--tertiary-color); /* Define a cor do texto */
+
+background-color: var(--bg-color); /* Define a cor de fundo */
+
+padding: 15px 20px; /* Define o preenchimento interno */
+
+border-top: 1px solid #3c4043; /* Adiciona uma borda na parte superior */
+
+font-size: 0.8rem; /* Define o tamanho da fonte */
+
+}
+
+ 
+
+.footer-location {
+
+color: #9aa0a6; /* Define a cor do texto para a localização no rodapé */
+
+margin-bottom: 10px; /* Adiciona uma margem inferior */
+
+}
+
+ 
+
+.footer-links {
+
+list-style: none; /* Remove os marcadores de item da lista */
+
+display: flex; /* Ativa o layout flexbox */
+
+flex-wrap: wrap; /* Permite que os itens da lista quebrem para a próxima linha se não houver espaço */
+
+justify-content: center; /* Centraliza os itens da lista horizontalmente */
+
+gap: 15px; /* Define um espaçamento de 15px entre os links */
+
+}
+
+ 
+
+.footer-links a {
+
+color: var(--secondary-color); /* Define a cor do link */
+
+text-decoration: none; /* Remove o sublinhado do link */
+
+transition: color 0.2s; /* Adiciona uma transição suave de 0.2s para a cor do link */
+
+}
+
+ 
+
+.footer-links a:hover {
+
+color: var(--accent-color); /* Muda a cor do link ao passar o mouse (AVISO: a variável --accent-color não está definida) */
+
+}
+
+ 
+
+@media (max-width: 768px) {
+
+header { /* Inicia um bloco de media query para telas com largura máxima de 768px */
+
+flex-direction: column; /* Organiza os itens do cabeçalho em uma coluna */
+
+padding: 1rem; /* Reduz o preenchimento interno */
+
+}
+
+ 
+
+header h1 { /* Estiliza o h1 dentro do cabeçalho em telas menores */
+
+text-align: center; /* Centraliza o texto do título */
+
+margin-bottom: 1rem; /* Adiciona uma margem inferior */
+
+}
+
+ 
+
+div input { /* Estiliza o input em telas menores */
+
+width: 90vw; /* Define a largura como 90% da largura da viewport (tela) */
+
+font-size: 1.2rem; /* Reduz o tamanho da fonte */
+
+}
+
+ 
+
+main { /* Estiliza o main em telas menores */
+
+padding: 0 1rem; /* Adiciona preenchimento lateral */
+
+}
+
+ 
+
+article:hover { /* Estiliza o estado hover do article em telas menores */
+
+transform: none; /* Remove o efeito de zoom ao passar o mouse para economizar recursos em dispositivos móveis */
+
+}
+
+}
+
+ 
+
+@media (max-width: 480px) {
+
+header h1 { /* Inicia um bloco de media query para telas com largura máxima de 480px */
+
+font-size: 1rem; /* Reduz ainda mais o tamanho da fonte do título */
+
+max-width: 70%; /* Define uma largura máxima para o título */
+
+word-wrap: break-word; /* Permite que palavras longas quebrem para a próxima linha */
+
+}
+
+ 
+
+div input, /* Estilos para o input e seu placeholder em telas muito pequenas */
+
+div input::placeholder {
+
+font-size: 1rem; /* Reduz o tamanho da fonte para o input e seu placeholder */
+
+}
+
+ 
+
+article h2 { /* Estiliza o h2 do article em telas muito pequenas */
+
+font-size: 1.3rem; /* Reduz o tamanho da fonte do subtítulo do artigo */
+
+}
+
+ 
+
+div { /* Estiliza a div do cabeçalho em telas muito pequenas */
+
+display: flex; /* Ativa o layout flexbox */
+
+align-items: center; /* Alinha os itens verticalmente ao centro */
+
+justify-content: center; /* Centraliza os itens horizontalmente */
+
+flex-direction: column; /* Organiza os itens em uma coluna */
+
+gap: 0.5rem; /* Define um espaçamento de 0.5rem entre os itens */
+
+}
+
+ 
+
+.footer { /* Estiliza o rodapé em telas muito pequenas */
+
+display: none; /* Oculta o rodapé para economizar espaço */
+
+/* A propriedade display: none foi removida para garantir que o rodapé seja sempre visível. */
+
+}
+
+ 
+
+button { /* Estiliza o botão em telas muito pequenas */
+
+margin-top: 1rem; /* Adiciona uma margem no topo do botão */
+
+}
+
+}

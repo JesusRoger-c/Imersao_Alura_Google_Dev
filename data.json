@@ -1,0 +1,377 @@
+[
+  {
+    "nome": "Wicked",
+    "descricao": "A história não contada das bruxas de Oz, muito antes de Dorothy chegar. Uma amizade improvável entre a 'bruxa má' e a 'bruxa boa'.",
+    "ano": 2016,
+    "link": "https://www.cnnbrasil.com.br/entretenimento/wicked-musical-volta-a-sao-paulo-veja-como-comprar-ingressos/",
+    "imagem": "wicked.jpg"
+  },
+
+  {
+    "nome": "Torto Arado, o Musical",
+    "descricao": "Baseado no aclamado romance de Itamar Vieira Junior, o musical narra a vida das irmãs Bibiana e Belonísia no sertão da Bahia, explorando temas de terra, família e ancestralidade.",
+
+    "ano": 2024,
+
+    "link": "https://www.metropoles.com/entretenimento/cultura/musical-inspirado-em-torto-arado-chega-ao-df-neste-fim-de-semana",
+
+    "imagem": "https://tse1.mm.bing.net/th/id/OIP.ZkE9D6b1-kEfXiLcI4RnVQHaE7?rs=1&pid=ImgDetMain&o=7&rm=3"
+  },
+
+  {
+    "nome": "Dreamgirls",
+
+    "descricao": "Inspirado em grupos como The Supremes, o musical narra a ascensão e os desafios de um trio de cantoras de R&B nos anos 60 e 70.",
+
+    "ano": 2025,
+
+    "link": "https://vejasp.abril.com.br/coluna/teatro/dreamgirls-teatro-santander-critica/",
+
+    "imagem": "https://tse2.mm.bing.net/th/id/OIP.pkF7sPt5sT6Onk74Ks78rgHaEK?rs=1&pid=ImgDetMain&o=7&rm=3"
+  },
+
+  {
+    "nome": "A Pequena Sereia",
+
+    "descricao": "Ariel, a sereia fascinada pelo mundo humano, faz um acordo com a bruxa Úrsula para trocar sua voz por pernas e viver na superfície.",
+
+    "ano": 2018,
+
+    "link": "https://istoe.com.br/a-pequena-sereia-o-musical-apresenta-temporada-no-rio-de-janeiro",
+
+    "imagem": "https://th.bing.com/th/id/R.34a551bdd8b29dbb7a7710c23d1e5e8e?rik=W%2fSz4ueL07mVvQ&pid=ImgRaw&r=0"
+  },
+
+  {
+    "nome": "Shrek, o Musical",
+
+    "descricao": "Baseado no filme de sucesso, o musical traz o ogro Shrek e seu amigo Burro em uma missão para resgatar a Princesa Fiona.",
+
+    "ano": 2012,
+
+    "link": "https://www.cenamusical.com.br/coletiva-do-musical-shrek-2/",
+
+    "imagem": "https://tse1.mm.bing.net/th/id/OIP.2NKj0pH9kaNF0SUUYDxzZQHaE7?rs=1&pid=ImgDetMain&o=7&rm=3"
+  },
+
+  {
+    "nome": "O Rei Leão",
+
+    "descricao": "A jornada de Simba de um jovem filhote a rei das Terras do Reino, com visuais deslumbrantes e canções inesquecíveis.",
+
+    "ano": 2012,
+
+    "link": "https://www.bing.com/search?q=o%20rei%20leão%20musical%20%20brasil%20&qs=n&form=QBRE&sp=-1&lq=0&pq=o%20rei%20leão%20musical%20%20brasil%20&sc=13-27&sk=&cvid=EAAB16003563482C954451F4967338E1",
+
+    "imagem": "https://portalperifacon.com/wp-content/uploads/2023/05/O-que-assistir-na-broadway-scaled.jpg"
+  },
+
+  {
+    "nome": "Les Misérables",
+
+    "descricao": "Na França do século XIX, a história de Jean Valjean, um ex-prisioneiro que busca redenção em meio a conflitos sociais e políticos.",
+
+    "ano": 2001,
+
+    "link": "https://www.cenamusical.com.br/conheca-o-elenco-do-musical-les-miserables-que-estreia-em-marco-no-teatro-renault/ ",
+
+    "imagem": "https://tse2.mm.bing.net/th/id/OIP.q_RcjaVsfcbpAFzespvJcAHaEv?rs=1&pid=ImgDetMain&o=7&rm=3"
+  },
+
+  {
+    "nome": "O Fantasma da Ópera",
+
+    "descricao": "Um gênio musical desfigurado que assombra a Ópera de Paris se apaixona pela jovem soprano Christine.",
+
+    "ano": 2005,
+
+    "link": " https://www.cenamusical.com.br/coletiva-do-musical-o-fantasma-da-opera/",
+
+    "imagem": "https://portalcbncampinas.com.br/wp-content/uploads/2019/08/musical-o-fantasma-da-opera-11.jpg"
+  },
+
+  {
+    "nome": "Mamma Mia!",
+
+    "descricao": "Ao som das músicas do ABBA, uma jovem prestes a se casar convida três ex-namorados de sua mãe para descobrir qual deles é seu pai.",
+
+    "ano": 2010,
+
+    "link": "https://catracalivre.com.br/gira/espetaculo-mamma-mia-teatro-bradesco-sao-paulo/",
+
+    "imagem": "https://tse4.mm.bing.net/th/id/OIP.6A6omCzQOqzNOw3Jkm6qcQHaE8?rs=1&pid=ImgDetMain&o=7&rm=3"
+  },
+
+  {
+    "nome": "Chicago",
+
+    "descricao": "Na era do jazz, duas assassinas rivais, Velma Kelly e Roxie Hart, competem pela fama que esperam que as livre da forca.",
+
+    "ano": 2004,
+
+    "link": " https://www.cenamusical.com.br/coletiva-do-musical-chicago/",
+
+    "imagem": "https://www.elhombre.com.br/wp-content/uploads/2022/03/chicago-2048x1152.png"
+  },
+
+  {
+    "nome": "A Bela e a Fera",
+
+    "descricao": "A clássica história de Bela, uma jovem que se encontra em um castelo com uma Fera amaldiçoada e seus servos encantados.",
+
+    "ano": 2002,
+
+    "link": " https://vejasp.abril.com.br/coluna/criancas-sao-paulo/montagem-a-bela-e-a-fera-no-teatro-b32/",
+
+    "imagem": "https://tse3.mm.bing.net/th/id/OIP.6ds-gyQcu_mz181ggRhs0wHaFj?rs=1&pid=ImgDetMain&o=7&rm=3"
+  },
+
+  {
+    "nome": "Cantando na Chuva",
+
+    "descricao": "Uma divertida sátira da transição do cinema mudo para o falado em Hollywood, com números de sapateado icônicos.",
+
+    "ano": 2017,
+
+    "link": "https://www.cenamusical.com.br/conheca-o-elenco-do-musical-cantando-na-chuva-que-chega-ao-brasil-em-agosto/",
+
+    "imagem": "https://tse4.mm.bing.net/th/id/OIP.FaSLeCmlnnQ2CCls8FeiwwHaFC?rs=1&pid=ImgDetMain&o=7&rm=3"
+  },
+
+  {
+    "nome": "A Noviça Rebelde",
+
+    "descricao": "Maria, uma jovem noviça, torna-se governanta dos sete filhos do Capitão von Trapp, trazendo música e alegria para a família.",
+
+    "ano": 2009,
+
+    "link": "https://www.cenamusical.com.br/a-novica-rebelde-chega-ao-rio-com-novidades-no-elenco/",
+
+    "imagem": "https://saopauloparacriancas.com.br/wp-content/uploads/2024/02/sp_criancas_passeio_novica_rebelde_07-800x533.jpg"
+  },
+
+  {
+    "nome": "Miss Saigon",
+
+    "descricao": "Uma releitura de 'Madame Butterfly' durante a Guerra do Vietnã, sobre o romance trágico entre um soldado americano e uma jovem vietnamita.",
+
+    "ano": 2007,
+
+    "link": " https://g1.globo.com/Noticias/PopArte/0,,MUL63292-7084,00.html",
+
+    "imagem": "https://tse1.mm.bing.net/th/id/OIP.tid7xgSM2MWIPQegpuVcIQHaD4?rs=1&pid=ImgDetMain&o=7&rm=3"
+  },
+
+  {
+    "nome": "Priscilla, a Rainha do Deserto",
+
+    "descricao": "Duas drag queens e uma mulher transexual viajam pelo deserto australiano em um ônibus chamado Priscilla, em uma jornada de autodescoberta.",
+
+    "ano": 2012,
+
+    "link": "https://www.cenamusical.com.br/coletiva-do-musical-priscilla-a-rainha-do-deserto/",
+
+    "imagem": "https://cadernopop.com.br/wp-content/uploads/2024/06/Rainha-do-deserto.jpg"
+  },
+
+  {
+    "nome": "Hairspray",
+
+    "descricao": "Nos anos 60, a adolescente Tracy Turnblad sonha em dançar em um programa de TV e luta pela integração racial em Baltimore.",
+
+    "ano": 2009,
+
+    "link": " https://www.cnnbrasil.com.br/entretenimento/hairspray-apos-temporada-no-rio-musical-estreia-em-sao-paulo-nesta-quinta/",
+
+    "imagem": "https://tse3.mm.bing.net/th/id/OIP.5YO9pOF0duOFxybKvwQ3kQHaEp?rs=1&pid=ImgDetMain&o=7&rm=3"
+  },
+
+  {
+    "nome": "Annie, o Musical",
+
+    "descricao": "A história da pequena órfã Annie, que sonha em encontrar seus pais e acaba encantando o bilionário Oliver Warbucks.",
+
+    "ano": 2018,
+
+    "link": " https://www.bing.com/search?q=annie%2C%20musical%20musical%20brasileiro&qs=n&form=QBRE&sp=-1&lq=0&pq=annie%2C%20musical%20musical%20brasileiro&sc=12-33&sk=&cvid=04C2E6DA1F334AA2A61DCCBDB5FD0C58",
+
+    "imagem": "https://tse2.mm.bing.net/th/id/OIP.mqQ9IRO6Pba9G16HE6myxwHaEK?rs=1&pid=ImgDetMain&o=7&rm=3"
+  },
+
+  {
+    "nome": "Billy Elliot, o Musical",
+
+    "descricao": "Um garoto de uma cidade mineradora troca as luvas de boxe pelas sapatilhas de balé, lutando contra o preconceito para seguir seu sonho.",
+
+    "ano": 2022,
+
+    "link": " https://genius.com/albums/Mariana-elisabetsky-and-victor-muhlethaler/Billy-elliot-o-musical-brasil-2019",
+
+    "imagem": "https://saopaulosemmesmice.com.br/wp-content/uploads/2019/03/musical-billy-elliot-joao-caldas-02.jpg"
+  },
+
+  {
+    "nome": "O Mágico de Oz",
+
+    "descricao": "Dorothy e seu cãozinho Totó são levados por um tornado para a terra mágica de Oz, onde encontram amigos e desafios no caminho para casa.",
+
+    "ano": 2012,
+
+    "link": "https://saopaulosecreto.com/musical-o-magico-de-oz/#:~:text=Musical%20%E2%80%98O%20M%C3%A1gico%20de%20Oz%E2%80%99%20far%C3%A1%20temporada%20em,mais%20efeitos%20especiais%20e%20can%C3%A7%C3%B5es%20in%C3%A9ditas%20em%20portugu%C3%AAs.",
+
+    "imagem": "https://tse3.mm.bing.net/th/id/OIP.alYS6ANN4i-s5ChLXLSwDAHaEJ?rs=1&pid=ImgDetMain&o=7&rm=3"
+  },
+
+  {
+    "nome": "Aladdin",
+
+    "descricao": "Baseado na animação da Disney, o musical conta a história do jovem Aladdin, um gênio e uma lâmpada mágica que pode realizar seus desejos.",
+
+    "ano": 2024,
+
+    "link": "https://pt.wikipedia.org/wiki/Alan_%26_Aladim",
+
+    "imagem": "https://portalbelohorizonte.com.br/sites/default/files/arquivos/eventos/2023-07/62df10d61180c-lg_0.jpg"
+  },
+
+  {
+    "nome": "Natasha, Pierre e o Grande Cometa de 1812",
+
+    "descricao": "Uma ópera eletropop baseada em um trecho de 'Guerra e Paz' de Tolstói, focando no romance de Natasha com o rebelde Anatole.",
+
+    "ano": 2018,
+
+    "link": "https://www.bing.com/search?q=Natasha%2C%20Pierre%20e%20o%20Grande%20Cometa%20de%201812%20brasileiro&qs=n&form=QBRE&sp=-1&lq=0&pq=natasha%2C%20pierre%20e%20o%20grande%20cometa%20de%201812%20brasileiro&sc=18-52&sk=&cvid=842F3ED780EE47FDA51167A793D45BCB ",
+
+    "imagem": "https://tse2.mm.bing.net/th/id/OIP.5fiMjWO6RkLyfBzEXGSkQwHaE8?rs=1&pid=ImgDetMain&o=7&rm=3"
+  },
+
+  {
+    "nome": "Heathers, o Musical",
+
+    "descricao": "Baseado no filme cult, este musical de humor ácido segue Veronica Sawyer enquanto ela navega pela hierarquia social de sua escola.",
+
+    "ano": 2019,
+
+    "link": " https://pt.wikipedia.org/wiki/Heathers:_The_Musical",
+
+    "imagem": "https://tse4.mm.bing.net/th/id/OIP.QM_nmLsND7Cl5aLjt-wf3AAAAA?w=299&h=168&rs=1&pid=ImgDetMain&o=7&rm=3"
+  },
+
+  {
+    "nome": "O Despertar da Primavera",
+
+    "descricao": "Um rock musical que explora a jornada turbulenta da adolescência para a vida adulta na Alemanha do século XIX.",
+
+    "ano": 2009,
+
+    "link": "https://www.bing.com/search?q=O%20Despertar%20da%20Primavera%20%20musical%20brasileiro&qs=n&form=QBRE&sp=-1&lq=0&pq=o%20despertar%20da%20primavera%20%20musical%20brasileiro&sc=12-44&sk=&cvid=6F60912C39FD429EA4D988DA72AF73C1",
+
+    "imagem": "https://tse3.mm.bing.net/th/id/OIP.jC4KQwuP2cu2k46WWqvT_QHaE7?rs=1&pid=ImgDetMain&o=7&rm=3"
+  },
+
+  {
+    "nome": "Hebe: O Musical",
+    "descricao": "Musical que celebra a vida e a carreira da icônica apresentadora brasileira Hebe Camargo, explorando sua ascensão e influência na televisão.",
+    "ano": "2018",
+    "link": "https://www.cenamusical.com.br/hebe-camargo-e-homenageada-em-musical-5-anos-apos-sua-morte/",
+    "imagem": "https://tse1.mm.bing.net/th/id/OIP.753-ZuG4BnI5EFL0nExlIAHaD-?rs=1&pid=ImgDetMain&o=7&rm=3"
+  },
+  {
+    "nome": "Cazuza: Pro Dia Nascer Feliz",
+    "descricao": "Um espetáculo biográfico que narra a intensa e curta trajetória do poeta e cantor Cazuza, desde o Barão Vermelho até sua carreira solo.",
+    "ano": "2013",
+    "link": "https://pt.wikipedia.org/wiki/Cazuza_-_Pro_Dia_Nascer_Feliz,_o_Musical",
+    "imagem": "https://tse3.mm.bing.net/th/id/OIP.vtWlMIdLCsGgAiUvUWxaZQHaEP?rs=1&pid=ImgDetMain&o=7&rm=3"
+  },
+  {
+    "nome": "Elis, A Musical",
+    "descricao": "Homenagem à 'Pimentinha' Elis Regina. O musical percorre os momentos cruciais da vida e da arte de uma das maiores intérpretes da música popular brasileira.",
+    "ano": "2014",
+    "link": "https://www.uol.com.br/splash/noticias/2024/10/19/laila-garin-elis-a-musical-teatro-riachuelo.htm",
+    "imagem": "https://tse1.mm.bing.net/th/id/OIP.4bbWD-OJGZxR3y7lS5HH6QHaD_?rs=1&pid=ImgDetMain&o=7&rm=3"
+  },
+  {
+    "nome": "Chacrinha: O Musical",
+    "descricao": "Uma festa teatral que celebra Abelardo Barbosa, o Chacrinha, apresentando seus bordões famosos e o universo caótico e alegre de seus programas de auditório.",
+    "ano": "2014",
+    "link": "https://pt.wikipedia.org/wiki/Chacrinha,_O_Musical",
+    "imagem": "https://www.trilhaseaventuras.com.br/wp-content/uploads/2015/01/Chacrinha-o-Musical-3.jpg"
+  },
+  {
+    "nome": "O Rei do Rock - O Musical",
+    "descricao": "Espetáculo biográfico sobre o cantor, compositor e ator brasileiro Erasmo Carlos, destacando sua parceria com Roberto Carlos e sua influência no rock nacional.",
+    "ano": "2023",
+    "link": "https://www.bing.com/search?q=O+Rei+do+Rock+-+O+Musical&cvid=87d201ceba4b48849ce24a4600af7768&gs_lcrp=EgRlZGdlKgYIABBFGDkyBggAEEUYOTIGCAEQABhAMgYIAhAAGEAyBggDEAAYQDIGCAQQABhAMgYIBRAAGEAyBggGEAAYQDIGCAcQABhAMgYICBAAGEAyCAgJEOkHGPxV0gEIMjIwOGowajSoAgCwAgA&FORM=ANAB01&PC=DCTS ",
+    "imagem": "https://tse3.mm.bing.net/th/id/OIP.1TzFp_yo8pKu_QBwVV-JNQHaEK?rs=1&pid=ImgDetMain&o=7&rm=3 "
+  },
+  {
+    "nome": "Ney Matogrosso - O Musical",
+    "descricao": "Musical que explora a trajetória ousada e performática de Ney Matogrosso, desde Os Secos & Molhados até sua aclamada carreira solo.",
+    "ano": "2024",
+    "link": "https://www.uol.com.br/splash/colunas/amaury-jr/2025/09/04/musical-ney-matogrosso---homem-com-h-volta-aos-palcos-no-teatro-porto.htm",
+    "imagem": "https://rota1976.com/wp-content/uploads/2022/09/301776627_10159680593817672_3858319977418089743_n.jpg"
+  },
+  {
+    "nome": "Meu Amigo Charlie Brown",
+    "descricao": "Produção brasileira baseada no clássico 'You're a Good Man, Charlie Brown', trazendo as desventuras filosóficas e cômicas da turma Peanuts.",
+    "ano": "2016",
+    "link": "https://www.bing.com/search?q=Meu+Amigo+Charlie+Brown+musical&cvid=e913a9603d8d43a7806680b7ca0c4bba&gs_lcrp=EgRlZGdlKgYIABBFGDkyBggAEEUYOTIGCAEQABhAMgYIAhAAGEAyBggDEAAYQDIGCAQQABhAMgYIBRAAGEAyBggGEAAYQDIGCAcQABhAMgYICBAAGEAyCAgJEOkHGPxV0gEINTU1MmowajSoAgiwAgE&FORM=ANAB01&PC=DCTS",
+    "imagem": "https://tse1.mm.bing.net/th/id/OIP.rCBn-nLxSSNXlTRP5CoRdgHaE8?rs=1&pid=ImgDetMain&o=7&rm=3"
+  },
+  {
+    "nome": "Sunset Boulevard",
+    "descricao": "Grande produção brasileira do clássico de Andrew Lloyd Webber, contando a história da decadente estrela de cinema mudo Norma Desmond.",
+    "ano": "2019",
+    "link": "https://www.cenamusical.com.br/coletiva-do-musical-sunset-boulevard/",
+    "imagem": "https://tse4.mm.bing.net/th/id/OIP.NAI_bDH1vM3vkRgHF5KiPQHaEK?rs=1&pid=ImgDetMain&o=7&rm=3"
+  },
+  {
+    "nome": "Rent",
+    "descricao": "Produção brasileira do aclamado musical rock que retrata a vida de jovens artistas e boêmios em Nova York lidando com a AIDS e a pobreza nos anos 90.",
+    "ano": "2016",
+    "link": "https://www.bing.com/search?q=Rent%20musical%20brasil%20&qs=n&form=QBRE&sp=-1&ghc=1&lq=0&pq=rent%20musical%20brasil%20&sc=12-20&sk=&cvid=DE4BC83EEE8C47CAB2D0A083FCB86159",
+    "imagem": "https://th.bing.com/th/id/R.8f48ab5b4df45d841e4c57e2cd49f5d9?rik=wBxMofxpqJO5ZQ&riu=http%3a%2f%2funiversoretro.com.br%2fwp-content%2fuploads%2f2017%2f08%2felenco-the-rent-1999.jpg&ehk=Hg4S1qDEO2XOg%2bP0XOGh7V2J6OpcZg2T3Wmoa8UrAUU%3d&risl=&pid=ImgRaw&r=0"
+  },
+  {
+    "nome": "Bibi, Uma Vida em Musical",
+    "descricao": "Espetáculo emocionante sobre a vida e o legado da lendária atriz e diretora brasileira Bibi Ferreira, um ícone do teatro nacional.",
+    "ano": "2019",
+    "link": "https://wbproducoes.com/en/bibi-uma-vida-em-musical/",
+    "imagem": "https://jb.fm/uploads/2022/07/Agenda_JBFM_PromoBibi-Uma-vida-em-musical-min.png "
+  },
+  {
+    "nome": "Donna Summer: Musical",
+    "descricao": "Produção brasileira que conta a vida extraordinária da Rainha da Disco, Donna Summer, usando seus sucessos para narrar sua ascensão e desafios.",
+    "ano": "2023",
+    "link": " https://pt.wikipedia.org/wiki/Donna_Summer",
+    "imagem": "https://th.bing.com/th/id/R.477db6195146e6b4613f572b2456d38e?rik=V0elUVNPkyvO3A&pid=ImgRaw&r=0"
+  },
+  {
+    "nome": "Evita",
+    "descricao": "Produção nacional do aclamado musical sobre a vida de Eva Perón, destacando sua ascensão política e sua influência na Argentina.",
+    "ano": "2022",
+    "link": "https://pt.wikipedia.org/wiki/Evita_(musical) ",
+    "imagem": "https://th.bing.com/th/id/R.5bc5f06a3d53ccb54a4da22d844fee49?rik=wZh0fipIuqanIA&riu=http%3a%2f%2fmusicaltheatrereview.com%2fwp-content%2fuploads%2f2013%2f05%2fEvita-previous-tour-production-shot6.jpg&ehk=P8f8B1KL%2fFmyEuhulAIja6bMNZQqopzXZ9Ec%2ftBXefs%3d&risl=&pid=ImgRaw&r=0"
+  },  {
+    "nome": "A Cor Púrpura",
+    "descricao": "Adaptação brasileira do musical da Broadway baseado no romance de Alice Walker, que aborda a luta de mulheres negras por liberdade e auto-aceitação no sul dos EUA.",
+    "ano": "2019",
+    "link": "https://www.uol.com.br/splash/colunas/amaury-jr/2024/09/04/premiado-musical-a-cor-purpura-retorna-com-temporadas-no-rj-e-sp.htm",
+    "imagem": "https://vitaminanerd.com.br/wp-content/uploads/2020/01/A-cor-purpura-capa-1.png "
+  },
+  {
+    "nome": "Barnum - O Rei do Show",
+    "descricao": "Musical que narra a história real de P.T. Barnum, o lendário showman e empresário circense, focado na sua grande produção do século XIX.",
+    "ano": "2024",
+    "link": "https://www.cenamusical.com.br/coletiva-do-musical-barnum-o-rei-do-show/ ",
+    "imagem": " https://tse2.mm.bing.net/th/id/OIP.-ePPmsVS3HRluVzoylLpUAHaE8?rs=1&pid=ImgDetMain&o=7&rm=3"
+  },
+  {
+    "nome": "Charlie e a Fantástica Fábrica de Chocolate",
+    "descricao": "Superprodução brasileira baseada no conto clássico de Roald Dahl, com Willy Wonka e o jovem Charlie Bucket explorando a fábrica mágica.",
+    "ano": "2021",
+    "link": "https://canalteatromf.com.br/charlie-e-a-fantastica-fabrica-de-chocolate/",
+    "imagem": "https://tse2.mm.bing.net/th/id/OIP.f1OCkUUAYXV0NcfiWF0k-AHaEo?rs=1&pid=ImgDetMain&o=7&rm=3"
+  }
+]

@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="style.css" />
+
+    <link rel="icon" href="teatro.png" type="image/png" />
+
+    <title>TOP MUSICAIS</title>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400;700&display=swap"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+  </head>
+
+  <body>
+    <header>
+      <h1 id="titulo-principal" onclick="voltarParaInicio()">
+        <i class="fa-solid fa-masks-theater"></i> Top Musicais
+      </h1>
+
+      <div class="search-container">
+        <input
+          type="text"
+          id="campoDeBusca"
+          placeholder="Digite um musical: "
+        />
+
+        <button id="botao-busca" onclick="iniciarBusca()">Buscar</button>
+      </div>
+    </header>
+
+    <section id="contexto-inicial">
+      <h2>Bem-vindo ao Palco Digital!</h2>
+
+      <p>
+        Um musical é uma forma de teatro que combina música, canções, dança e
+        diálogos. É uma explosão de arte, onde a história é contada não apenas
+        por palavras, mas por melodias que emocionam e coreografias que
+        encantam.
+      </p>
+
+      <h3>A Magia dos Musicais no Brasil</h3>
+
+      <p>
+        O Brasil recebeu os musicais de braços abertos! De grandes produções da
+        Broadway que ganham versões brasileiras espetaculares a criações
+        originais que celebram nossa cultura, os palcos do país vibram com
+        talento e paixão. Esta página é um convite para você explorar alguns dos
+        musicais mais amados que já passaram por aqui. Prepare-se e bom
+        espetáculo!
+      </p>
+    </section>
+
+    <section id="ranking-musicais">
+      <h2>Top 10 Musicais no Brasil</h2>
+
+      <p>
+        Confira abaixo uma seleção dos 10 musicais mais aclamados e que marcaram
+        os palcos brasileiros.
+      </p>
+
+      <ol>
+        <li onclick="irParaCard('Wicked')">
+          <img
+            src="https://portalfama.com.br/wp-content/uploads/2025/04/Wicked-Brasil-2025-portal-fama-1.jpg"
+            alt="Musical Wicked"
+          />
+
+          <span>Wicked</span>
+        </li>
+
+        <li onclick="irParaCard('Torto Arado, o Musical')">
+          <img
+            src="https://tse1.mm.bing.net/th/id/OIP.ZkE9D6b1-kEfXiLcI4RnVQHaE7?rs=1&pid=ImgDetMain&o=7&rm=3"
+            alt="Musical Torto Arado"
+          />
+
+          <span>Torto Arado, o Musical</span>
+        </li>
+
+        <li onclick="irParaCard('Aladdin')">
+          <img
+            src="https://portalbelohorizonte.com.br/sites/default/files/arquivos/eventos/2023-07/62df10d61180c-lg_0.jpg"
+            alt="Musical Aladdin"
+          />
+
+          <span>Aladdin</span>
+        </li>
+
+        <li onclick="irParaCard('O Rei Leão')">
+          <img
+            src="https://portalperifacon.com/wp-content/uploads/2023/05/O-que-assistir-na-broadway-scaled.jpg"
+            alt="Musical O Rei Leão"
+          />
+
+          <span>O Rei Leão</span>
+        </li>
+
+        <li onclick="irParaCard('Les Misérables')">
+          <img
+            src="https://tse2.mm.bing.net/th/id/OIP.q_RcjaVsfcbpAFzespvJcAHaEv?rs=1&pid=ImgDetMain&o=7&rm=3"
+            alt="Musical Les Misérables"
+          />
+
+          <span>Les Misérables</span>
+        </li>
+
+        <li onclick="irParaCard('O Fantasma da Ópera')">
+          <img
+            src="https://portalcbncampinas.com.br/wp-content/uploads/2019/08/musical-o-fantasma-da-opera-11.jpg"
+            alt="Musical O Fantasma da Ópera"
+          />
+
+          <span>O Fantasma da Ópera</span>
+        </li>
+
+        <li onclick="irParaCard('Chicago')">
+          <img
+            src="https://www.elhombre.com.br/wp-content/uploads/2022/03/chicago-2048x1152.png"
+            alt="Musical Chicago"
+          />
+
+          <span>Chicago</span>
+        </li>
+
+        <li onclick="irParaCard('Mamma Mia!')">
+          <img
+            src="https://tse4.mm.bing.net/th/id/OIP.6A6omCzQOqzNOw3Jkm6qcQHaE8?rs=1&pid=ImgDetMain&o=7&rm=3"
+            alt="Musical Mamma Mia!"
+          />
+
+          <span>Mamma Mia!</span>
+        </li>
+
+        <li onclick="irParaCard('Hairspray')">
+          <img
+            src="https://tse3.mm.bing.net/th/id/OIP.5YO9pOF0duOFxybKvwQ3kQHaEp?rs=1&pid=ImgDetMain&o=7&rm=3"
+            alt="Musical Hairspray"
+          />
+
+          <span>Hairspray</span>
+        </li>
+
+        <li onclick="irParaCard('A Noviça Rebelde')">
+          <img
+            src="https://saopauloparacriancas.com.br/wp-content/uploads/2024/02/sp_criancas_passeio_novica_rebelde_07-800x533.jpg"
+            alt="Musical A Noviça Rebelde"
+          />
+
+          <span>A Noviça Rebelde</span>
+        </li>
+      </ol>
+    </section>
+
+    <main>
+      <section class="card-container">
+        <!-- <article class="card">
+
+                <h2>JavaScript</h2>
+
+                <p>1995</p>
+
+                <p>JavaScript é uma linguagem de programação de alto nível.</p>
+
+                <img src="${dado.imagem}" alt="Logo da linguagem ${dado.nome}" class="card-image">
+
+                <a href="https://www.w3schools.com/js/DEFAULT.asp" target="_blank">Documentação</a>
+
+            </article> -->
+      </section>
+    </main>
+
+    <footer class="footer">
+      <ul class="footer-links">
+        <li>
+          <a
+            href="https://www.linkedin.com/in/rogergabriel/"
+            target="_blank"
+            aria-label="LinkedIn"
+          >
+            <i class="fab fa-linkedin fa-2x"></i>
+          </a>
+        </li>
+
+        <li>
+          <a
+            href="https://github.com/JesusRoger-c"
+            target="_blank"
+            aria-label="GitHub"
+          >
+            <i class="fab fa-github fa-2x"></i>
+          </a>
+        </li>
+
+        <li>
+          <a
+            href="mailto:jesusrogercosta2004@gmail.com?subject=TOP%20MUSICAIS%20-%20MENSAGEM&body=Ol%C3%A1%2C%20estou%20vindo%20do%20site%20%22Top%20musicais%22!"
+            aria-label="Email"
+          >
+            <i class="fas fa-envelope fa-2x"></i>
+          </a>
+        </li>
+
+        <li>
+          <a
+            href="https://www.instagram.com/top_musicais_ofc?igsh=cDVhZWtoNW1qczhh&utm_source=qr"
+            target="_blank"
+            aria-label="Instagram"
+          >
+            <i class="fab fa-instagram fa-2x"></i>
+          </a>
+        </li>
+      </ul>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
