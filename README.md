@@ -40,6 +40,3 @@ Durante o desenvolvimento, aprofundei meus conhecimentos em semântica, acessibi
 
 Este projeto representa a união entre criatividade, tecnologia e a magia dos musicais — uma vitrine digital que informa, inspira e convida o público a explorar esse universo artístico vibrante.
 
----
-
-Se quiser, posso adicionar seções como **Instalação**, **Como rodar o projeto**, **Estrutura de pastas** ou **Licença**.
